@@ -1,0 +1,238 @@
+
+/* custom styles */
+/*primary color #FFA033*/
+/*secondary color #F28300*/
+
+/* general section*/
+.container {
+  max-width:900px;
+}
+
+.img-center {
+  margin:auto;
+}
+
+
+.centering {
+  float: none;
+  margin: 0 auto;
+}
+
+
+
+/* navigation section */
+
+.navbar{
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.custom-nav-container {
+	max-width: 1441px;
+}
+
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #FFA033;
+		min-height: 64px;
+    border:none;
+}
+
+.navbar-nav>li>a {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+  line-height: 34px;
+}
+
+.nav>li>a:hover {
+    text-decoration: none;
+    color: #F28300;
+    background-color: #FFA033;
+    }
+
+#bs-example-navbar-collapse-1 > ul > li:nth-child(3) > a {
+    color: #FFA033;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0px;
+    font-size: 14px;
+    padding: 0px 12px;
+    border: none;
+    margin: 15px 5px 15px 5px;
+    border-color: #cccccc;
+    border-radius: 0px;
+}
+
+#bs-example-navbar-collapse-1 > ul > li:nth-child(3) > a:hover {
+    background-color: #dddddd;
+}
+
+.navbar-toggle {
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 14px 10px;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+/* hero section */
+
+.hero {
+  background-image: url("../img/background-header.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: none;
+  min-height: 500px;
+}
+
+.hero img {
+  margin:auto;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+  .hero { 
+    min-height: 744px;
+  }
+}
+
+.logoHeader {
+  padding: 80px 20px 60px 20px;
+}
+
+.btn-hero {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #FFA033;
+  margin-top:10px;
+  color: #ffffff;
+  background-color: #FFA033;
+  border-radius: 0px;
+  font-size:1.8em;
+  font-style: italic; 
+  font-weight: lighter;
+  letter-spacing: .05em;   
+}
+
+.btn-hero:hover {
+  background-color: transparent;
+  color: #FFA033;   
+}
+
+/* about section */
+
+.about {
+  margin: 80px 20px;
+}
+
+.howard{
+  margin:auto;
+  padding-bottom:20px;
+}
+
+.alltime {
+  color:#FFA033;
+}
+
+/* thecookies section */
+
+.thecookies {
+  background-image: url("../img/background-cookies.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  min-height: 600px;
+}
+
+.thecookies .row-fluid {
+
+  padding-top: 100px;
+}
+
+.cookie-row {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: #ffffff;
+}
+
+.btn-card {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #FFA033;
+  margin-top:15px;
+  margin-bottom:15px;
+  color: #ffffff;
+  background-color: #FFA033;
+  border-radius: 0px;
+  font-size:1.8em;
+  font-style: italic;    
+}
+
+.btn-card:hover {
+  background-color: transparent;
+  color: #FFA033;   
+}
+
+.card-title {
+  color:#FFA033;
+  font-weight: bold;
+}
+
+
+/* getthecookies section */
+
+.getthecookies {
+  background: url(../img/dunk-lebron.png) no-repeat, #FFA033;
+  background-position: center;
+  min-height: 800px;
+ }
+
+.getthecookiesrow {
+
+  padding: 240px 20px 240px 20px;
+
+}
+
+.getthecookies h1 {
+  color: #ffffff;
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+
+/*mailchimp */
+
+#mc_embed_signup { border: none; text-align: center; width: 100%; } /* Signup form container */
+ 
+.mc-field-group { display: inline-block; } /* positions input field horizontally */
+
+#mce-EMAIL { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1.8em; border: none ; color: #343434; background-color: #fff; padding: .7em 9em .7em 1em; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; display: inline-block; margin: 0; } /* Input Styles */
+
+.clear { display: inline-block; } /* positions button horizontally in line with input */
+
+.button { font-family: 'Helvetica Neue', Helvetica,  Arial, sans-serif; font-size: 1.8em; font-style:italic; letter-spacing: .03em; color: #fff; background-color: #F28300 ; padding: .7em 2em; border: 0px ; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; display: inline-block; margin: 0px 0px 0px -8px; } /* Button Styles */
+
+:-webkit-input-placeholder { color: #ABB0B2 ; } /* WebKit browsers */ 
+:-moz-placeholder { color: #ABB0B2 ; } /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder { color: #ABB0B2 ; } /* Mozilla Firefox 19+ */
+:-ms-input-placeholder { color: #ABB0B2 ; } /* Internet Explorer 10+ */
+
+@media (max-width: 768px) { /* positions input field and button underneath each other with 100% width for tablet and mobile */
+  
+.mc-field-group { display: block; max-width: 100%; }
+#mce-EMAIL { padding: .7em 0 .7em 1em; width: 96%; margin: 0; }
+.clear { display: block; width: 100% }
+.button { width: 100%; margin: .5em 0 0 0; }
+
+
